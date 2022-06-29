@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Righteous&display=swap"');
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Josefins Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+body{
+    
+    background: rgb(190, 132, 245);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+
+}
+.container .time{
+    height: 100px;
+    background: #fff;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    border-radius: 6px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    padding: 0 10px;
+    color: #333;
+}
+.container .time span{
+    width: 100px;
+    text-align: center;
+}
+.time span.doisPontos-ms,
+.time span.milisegundos{
+    color: rgb(73, 16, 82);
+}
+.container .botoes{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.botoes buttom{
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color: rgb(125, 59, 161);
+    background: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
